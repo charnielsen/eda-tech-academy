@@ -8,12 +8,12 @@ metadata:
   namespace: openshift-gitops
 spec:
   destination:
-    namespace: poe1
+    namespace: ahsoka3
     server: https://kubernetes.default.svc
-  project: poe1
+  project: ahsoka3
   source:
     path: lab3-4/apps/store-simulator/overlays
-    repoURL: https://github.com/jbcodeforce/eda-tech-academy.git
+    repoURL: https://github.com/charnielsen/eda-tech-academy.git
   syncPolicy:
     automated:
       prune: true
